@@ -8,44 +8,194 @@
 	font-family: "Open+Sans", sans-serif;
 }
 
+/* box sizing: border-box*/
 
+.body{
+    background-color: black;
+}
+
+.Container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-color: black;
+    background-color: black; 
+}
+
+section.Links {
+    width: auto;
+    text-align: center;
+    align-content: center;
+    margin: auto;
+    background-color: black;
+    
+}
+
+/****** Navigation *******/
+nav{
+    display:block; 
+    overflow:auto;
+}
+
+nav a{
+    float:left;
+    text-align:center;
+    width:25%;
+}
+
+
+/*********** Header ***********/
 .Header{
 	font-family: "Verdana", sans-serif;
-	text-align: right;
-	padding-right: 10px;
-	background-color: #e6e6e6;
-	border: 3px solid gray;
+	text-align: center;
+	background-color: black;
+	border: 15px black;
     border-radius: 7px;
+    color: white;
+    font-size: 25px;
+
+    flex:auto;
+}
+/********* *About Me  *********/
+.title{
+    font-family: "Verdana", sans-serif;
+    text-align: left;
+    background-color: black;
 }
 
 .AboutMe{
 	font-family: "Verdana", sans-serif;
-    background-color: #e6e6e6;
-    border: 3px solid powderblue;
-    border-radius: 7px;
-    padding: 15px;
-    margin-top: 10px;
-}
-.Info{
-    background-color: #e6e6e6;
-    border-left: 5px solid powderblue;
-    padding-left: 2px;
+    background-color: black;
+    border: 10px blue;
+    color: white;
+
 }
 
-.ClassInfo{
-    background-color: #e6e6e6;
-    border: 3px solid powderblue;
-    border-radius: 7px;
-    padding: 15px;
+.AboutMeH2{
+    font-family: "Verdana", sans-serif;
     margin-top: 10px;
+    margin-bottom: -20px;
+    padding: 10px;
+    text-align: center;
 }
 
+.AboutMe img{
+    padding: 10px;
+    margin: 10px 10px 10px 10px;
+    max-width: 50px;
+    max-height: 50px;
+}
+
+
+/*.AboutMe_Column{
+    background-color: #61728e;
+    padding: 10px;
+    margin: 10px 10px 10px 10px;
+    width: 30%;
+    flex-grow: 1;
+}
+*/
+/********* Different  Size Screens *********/
+#portfolioContainer{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.portfolioH2{
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+    margin: 10px 10px 10px 10px;
+}
+
+.column{
+    color:white;
+    width: 100%;
+    flex-grow: 1;
+
+}
+#Header1 {
+    text-align: left;
+}
+#Header2 {
+    text-align: left;
+}
+#Header3 {
+    text-align: left;
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .Container{
+        width:95%;
+    }
+    .column{
+        width:30%;
+    }
+    #Header1 {
+        text-align: left;
+    }
+    #Header2 {
+        text-align: left;
+    }
+    #Header3 {
+        text-align: left;
+  }
+  .AboutMe img {
+    min-width: 150px;
+    min-height: 100px;
+  }
+}
+
+@media (min-width: 991px){
+    .container{
+        width:90%;
+    }
+    .column{
+        width:20%;
+    }
+    #Header1 {
+        text-align: left;
+    }
+    #Header2 {
+        text-align: left;
+    }
+    #header3 {
+        text-align: left;
+    }
+    .AboutMe img {
+        min-width: 300px;
+        min-height: 200px;
+    }
+}
+
+
+.center{
+    text-align: center;
+}
+
+/************** Classwork *************/
 .Classwork{
-    background-image: url("giphy.gif");
-    border: 3px solid powderblue;
-    border-radius: 7px;
+    background-image: url("./Pictures/giphy.gif");
     padding: 15px;
     margin-top: 10px;
     color: white;
 
 }
+a:link{
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: #b3b3cc;
+}
+a:visited {
+    color: #595959;
+}
+
+
+
+
+
+/*############################################# OLD CODE ####################################*/ 

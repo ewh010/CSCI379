@@ -4,77 +4,83 @@
 <link rel="stylesheet" href="frontFonts.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Marker+Felt|Veranda|Open+Sans">
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
 <title>Evan Harrington's Webpage</title> 
 </head>
-<body>
-<section class = "Header">
-	<h1>Web Portfolio</h1>
 
-	<nav> 
-		<ul>
-			<li><a href="#AboutMe">About Me</a></li>
-			<li><a href="#ClassInformation">Class Information</a></li>
-			<li><a href="#PortfolioContent">Portfolio Content</a></li>
-			<li><a href="FunFonts">Fun Fonts</a></li>
-		</ul>
-	</nav>
-</section>
+<body class = "body">
+<div class = "Container">
+
+	<section class = "Header">
+		<h1>Web Portfolio</h1>
+	</section>
+
+	<section class = "Links">
+		<nav> 
+			<ul>
+				<a href="#AboutMe">About Me</a></li>
+				<a href="#PortfolioContent">Portfolio Content</a>
+				<a href="#FunFonts">Fun Fonts</a>
+			</ul>
+		</nav>
+	</section>
 
 	<section class= "AboutMe" id="AboutMe">
-	<h2> About Me </h2> <br>
-	<p><section class = "Info">
-		
-		Name: Evan Harrington <br>
-		Email: <a href = "mailto:ewh010@bucknell.edu">ewh010@bucknell.edu </a> <br>
-		Gitlab: <a href = "https://github.com/ewh010"> Evan Harrington's Gitlab</a><br>
-		
-	</p>
-	</section>
-		<img src="GOPR0097.png" height = "300" width="400" alt="Picture">
-	</section>
-
-	<section class = "ClassInfo" id="ClassInformation">
-		<h2> Class Information </h2>
-		<section class = "Info"> 
-		<p>
-			Full Stack Web Application <br>
-			Professor: Alan Marchiori <br>
-			Section: 11:00 AM <br>
-			Institution: Bucknell University <br>
-			Semester: Spring Semester 2018 <br>
-		</p>
-		</section>
+			<h2 class= "AboutMeH2"> About Me </h2>
+			<p>	
+				<strong> Name: </strong> Evan Harrington <br>
+				<strong> Email: </strong> <a href = "mailto:ewh010@bucknell.edu">ewh010@bucknell.edu </a> <br>
+				<strong> Gitlab: </strong> <a href = "https://github.com/ewh010"> Evan Harrington's Gitlab</a><br>
+				<strong> Class: </strong> Full Stack Web Application (CSCI379) <br>
+				<strong> Professor: </strong> Alan Marchiori <br>
+				<strong> Institution: </strong> Bucknell University <br>
+				<strong> Semester: </strong> Spring Semester 2018
+			</p>
+			<img src = "./Pictures/GOPR0097.png" alt ="MyPicture">
 	</section>
 
-	<section class = "ClassInfo" id="PortfolioContent">
-		<h2>Portfolio Content</h2>
-		<p>
-			This will have all of my projects for this class. 
-		</p>
-		<h3>Project 1</h3>
-		<section class = "Info">
-			<article> 
-				This will contain my project 1.
-			</article>
-		</section>
-		<h3>Project 2</h3>
-		<section class = "Info">
-		<article> 
-			This will contain my project 2.
+
+
+
+
+
+
+<section class = "PortfolioContent" id="PortfolioContent">
+	<div id = "portfolioContainer">
+		<h2 class = "portfolioH2">Portfolio Content</h2>
+		
+			<p class = "">
+				<br> This will have all of my projects for this class. 
+			</p>
+
+		<article class = "column">
+			<h3 id = "Header1">Project 1</h3>
+				<p>
+					This will contain my project 1.
+				</p>
 		</article>
-		</section>
-		<h3>Final Project</h3>
-		<section class = "Info">
-		<article> 
-			This will contain my final project.
-		</article>
-		</section>
-	</section>
 
-	<section class = "Classwork" id= "FunFonts">
-		<h2>Additional Classwork</h2>
-		
-		<a href = "./fontfun.html"> Fun Fonts Webpage</a><br>
-	</section>
+		<article class = "column">
+			<h3 id = "Header2">Project 2</h3>
+				<p> 
+					This will contain my project 2.
+				</p>
+		</article>
+
+		<article class = "column">
+			<h3 id = "Header3">Final Project</h3>
+			<p> 
+				This will contain my final project.
+			</p>
+		</article>
+	</div>
+</section>
+
+<section class = "Classwork" id= "FunFonts">
+	<h2>Additional Classwork</h2>	
+	<a href = "./fontfun.html"> Fun Fonts Webpage</a><br>
+</section>
+
+</div>
 </body>
 </html>
