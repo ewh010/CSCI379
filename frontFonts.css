@@ -26,6 +26,9 @@ and could have easily included other colors.
     background-color: black;
 }
 
+* {
+    box-sizing: border-box;
+}
 .Container {
     width: 100%;
     margin-left: auto;
@@ -189,12 +192,29 @@ nav a{
 
 /************** Classwork *************/
 .Classwork{
-    background-image: url("./Pictures/giphy.gif");
+/*    background-image: url("./Pictures/giphy.gif"); */
     padding: 15px;
     margin-top: 10px;
+    margin: 10px;
     color: white;
-
+    border-radius: 5px; 
+    border-color: blue;
 }
+.Header2 {
+    width: 100%;
+
+    background-color: black;
+    text-align: center;
+    color: white;
+    border: 5px solid red;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0px 5px 10px 5px;
+}
+
+
+
+/*************** Link Attributes ******************/
 a:link{
     text-decoration: none;
     color: white;
