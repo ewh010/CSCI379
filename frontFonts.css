@@ -289,10 +289,24 @@ nav a{
 /*************** Link Attributes ******************/
 a:link{
     text-decoration: none;
-    color: white;
+    color: grey;
 }
+#funfontLink:hover{
+    color: red;
+    text-decoration: none;
+}
+
+#bootstrap1Link:hover{
+    color: red;
+    text-decoration: none;
+}
+#bootstrap2Link:hover {
+  color: red;
+  text-decoration: none;
+}
+
 a:hover {
-    color: #b3b3cc;
+    color: red;
 }
 a:visited {
     color: #595959;
