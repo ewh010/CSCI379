@@ -209,6 +209,26 @@ nav a{
     border-color: green;
     /* margin: 10px 10px 10px 10px; */
 }
+#project2{
+    background-color: black;
+    color: white;
+    /* box-shadow: 1px 4px 5px #999; */
+    padding: 10px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: green;
+    /* margin: 10px 10px 10px 10px; */
+}
+#project3{
+    background-color: black;
+    color: white;
+    /* box-shadow: 1px 4px 5px #999; */
+    padding: 10px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: green;
+    /* margin: 10px 10px 10px 10px; */
+}
 
 #Header1 {
     text-align: left;
