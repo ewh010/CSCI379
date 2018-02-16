@@ -254,13 +254,13 @@ nav a{
     /* margin: 10px 10px 10px 10px; */
 }
 
-#Header1 {
+#Heads1 {
     text-align: left;
 }
-#Header2 {
+#Heads2 {
     text-align: left;
 }
-#Header3 {
+#Heads3 {
     text-align: left;
 
 }
@@ -282,13 +282,13 @@ nav a{
     .column{
         width:30%;
     }
-    #Header1 {
+    #Heads1 {
         text-align: left;
     }
-    #Header2 {
+    #Heads2 {
         text-align: left;
     }
-    #Header3 {
+    #Heads3 {
         text-align: left;
   }
   .AboutMe img {
@@ -304,13 +304,13 @@ nav a{
     .column{
         width:20%;
     }
-    #Header1 {
+    #Heads1 {
         text-align: left;
     }
-    #Header2 {
+    #Heads2 {
         text-align: left;
     }
-    #header3 {
+    #heads3 {
         text-align: left;
     }
     .AboutMe img {
