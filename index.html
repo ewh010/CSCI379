@@ -24,14 +24,18 @@
 			<ul>
 				<a href="#AboutMe">About Me</a></li>
 				<a href="#PortfolioContent">Portfolio Content</a>
-				<a href="#FunFonts">Fun Fonts</a>
+				<a href="#AdditionalCoursework">Additional Coursework</a>
 			</ul>
 		</nav>
 	</section>
 
 	<section class= "AboutMe" id="AboutMe">
-			<h2 class= "AboutMeH2"> About Me </h2>
-			<p>	
+		<div class = "col">
+			<div class = "row" id = "Header4">
+				<h2 class= "AboutMeH2"> About Me </h2>
+			</div>
+			<div class = "row" id = "AboutMeP">
+				<p>	
 				<strong> Name: </strong> Evan Harrington <br>
 				<strong> Email: </strong> <a href = "mailto:ewh010@bucknell.edu">ewh010@bucknell.edu </a> <br>
 				<strong> Gitlab: </strong> <a href = "https://github.com/ewh010"> Evan Harrington's Gitlab</a><br>
@@ -40,34 +44,36 @@
 				<strong> Institution: </strong> Bucknell University <br>
 				<strong> Semester: </strong> Spring Semester 2018
 			</p>
-			<img src = "./Pictures/GOPR0097.png" alt ="MyPicture">
+				<img src = "./Pictures/GOPR0097.png" alt ="MyPicture">
+			</div>
 	</section>
 
 
 
-<section class = "Classwork" id= "FunFonts">
-	<div class = "Column1">
-		<div class = "Row">
-			<h2 class = "Header2">Additional Classwork</h2>
+<section class = "Classwork" id= "AdditionalCoursework">
+	<div class = "col">
+		<div class = "row">
+			<h2 class = "Header1">Additional Classwork</h2>
 		</div>	
 
-		<div class = "Row">
-			<p> <strong> Fun Fonts Assignment</strong>
+		<div class = "row" id = "Assignment1">
+			<p> <strong> Fun Fonts Assignment:</strong><br>
 				This <a href = "./fontfun.html"> Fun Fonts Webpage</a> shows our in class assignment of trying to implement different fonts in our webpage. 
 			</p>
 		</div>
 
-		<div class = "Row">
-			<p> <strong> Responsive CSS Styling </strong>
+		<div class = "row" id = "Assignment2">
+			<p> <strong> Responsive CSS Styling: </strong><br>
 				This <a hred = "./index2.html"> Project 1a</a> shows the CSS styling required of us for Project 1a. This included created columns and variable picture size.
 			</p> 
 		</div>
+		
 
-		<div class = "Row">
-			<p> <strong> Bootstrap Assignment </strong>
-				This is the first bootstrap example webpage: <a hred = "./bootstrap1.html">Bootstrap Example1</a> <br>
+		<div class = "Row4" id = "Assignment3">
+			<p> <strong> Bootstrap Assignment: </strong><br>
+				This is the first bootstrap example webpage: <a href = "./bootstrapAssignment1/bootstrapAssignment1.html">Bootstrap Example 1</a> <br>
 
-				This is the second bootstrap example webpage: <a hred = "./bootstrap2.html">Bootstrap Example1</a> 
+				This is the second bootstrap example webpage: <a href = "./bootstrapAssignment2/bootstrapAssignment2.html">Bootstrap Example 2</a> 
 			</p>
 		</div>
 	</div>
@@ -76,28 +82,23 @@
 
 
 <section class = "PortfolioContent" id="PortfolioContent">
-	<div id = "portfolioContainer">
-		<h2 class = "portfolioH2">Portfolio Content</h2>
-		<article class = "column">
-			<h3 id = "Header1">Project 1</h3>
-				<p>
-					This will contain my project 1.
-				</p>
-		</article>
+	<div class = "col">
+		<div class = "row">
+			<h2 class = "Header1">Portfolio Content</h2>
+			<div class = "col-sm-10 col-md-6 col-lg-4" id = "project1">
+				<h3 id = "Header1">Project 1</h3>
+				<p>This will contain my project 1.</p>
+			</div>
 
-		<article class = "column">
-			<h3 id = "Header2">Project 2</h3>
-				<p> 
-					This will contain my project 2.
-				</p>
-		</article>
-
-		<article class = "column">
-			<h3 id = "Header3">Final Project</h3>
-			<p> 
-				This will contain my final project.
-			</p>
-		</article>
+			<div class ="col-sm-10 col-md-6 col-lg-4" id = "project1"> 
+				<h3 id = "Header2">Project 2</h3>
+				<p> This will contain my project 2.</p>
+			</div>
+			<div class = "col-sm-10 col-md-6 col-lg-4" id = "project1">
+				<h3 id = "Header3">Final Project</h3>
+				<p> This will contain my final project. </p>
+			</div>
+		</div>
 	</div>
 </section>
 

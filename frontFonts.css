@@ -93,7 +93,21 @@ nav a{
     padding: 10px;
     text-align: center;
 }
+.AboutMeP{
+    background-color: black;
+    color: white;
+    /* box-shadow: 1px 4px 5px #999; */
+    padding: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #red;
+}
 
+.AboutMe p{
+    line-height: 30px;
+    padding: 10px;
+    flex-grow: 1;
+}
 .AboutMe img{
     padding: 10px;
     margin: 10px 10px 10px 10px;
@@ -110,6 +124,60 @@ nav a{
     flex-grow: 1;
 }
 */
+
+/************** Classwork *************/
+.Classwork{
+/*    background-image: url("./Pictures/giphy.gif"); */
+    padding: 15px;
+    margin-top: 10px;
+    margin: 10px;
+    color: white;
+    border-radius: 5px; 
+    border-color: blue;
+}
+.Header1 {
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    color: white;
+    border: 5px solid red;
+    border-radius: 10px; 
+    padding: 10px;
+    margin: 0px 5px 10px 5px;
+    font-size: 25px
+}
+
+.Classwork #Assignment1{
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: 5px solid blue;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0px 5px 5px 5px;
+    font-size: 15px;
+}
+.Classwork #Assignment2{
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: 5px solid blue;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0px 5px 5px 5px;
+    font-size: 15px;
+}
+.Classwork #Assignment3{
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: 5px solid blue;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0px 5px 5px 5px;
+    font-size: 15px;
+}
+
 /********* Different  Size Screens *********/
 #portfolioContainer{
     display:flex;
@@ -130,6 +198,18 @@ nav a{
     flex-grow: 1;
 
 }
+
+#project1{
+    background-color: black;
+    color: white;
+    /* box-shadow: 1px 4px 5px #999; */
+    padding: 10px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: green;
+    /* margin: 10px 10px 10px 10px; */
+}
+
 #Header1 {
     text-align: left;
 }
@@ -138,6 +218,16 @@ nav a{
 }
 #Header3 {
     text-align: left;
+
+}
+#Header4 {
+    background-color: black;
+    color: white;
+    /* box-shadow: 1px 4px 5px #999; */
+    padding: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: red;
 
 }
 
@@ -190,27 +280,9 @@ nav a{
     text-align: center;
 }
 
-/************** Classwork *************/
-.Classwork{
-/*    background-image: url("./Pictures/giphy.gif"); */
-    padding: 15px;
-    margin-top: 10px;
-    margin: 10px;
-    color: white;
-    border-radius: 5px; 
-    border-color: blue;
-}
-.Header2 {
-    width: 100%;
 
-    background-color: black;
-    text-align: center;
-    color: white;
-    border: 5px solid red;
-    border-radius: 5px;
-    padding: 10px;
-    margin: 0px 5px 10px 5px;
-}
+
+
 
 
 
