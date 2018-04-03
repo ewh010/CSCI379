@@ -1,0 +1,37 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <script src='./javascript/dogScript.js'></script>
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./dogCSS.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <title> Dog Breed API </title>
+  </head>
+  <body>
+    <div class="container">
+      <h1> DOG API</h1>
+      <div class="row">
+        <div class="col-sm">
+          <div class="randomDogPic">
+            <h3> Random Dog: </h3>
+            <Button onclick="findRandDog()" id="button"> Find </Button>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="breedPicSelection">
+            <h3> Find Dog Breed </h3>
+            <select name="breedPicture" id="chooseBreed" onchange="main(this);">
+              <option value=""> Select Breed </option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="imgContainer">
+        <img id="dogPic" class="center">
+      </div>
+    </div>
+  </body>
+</html>
